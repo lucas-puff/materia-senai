@@ -1,2 +1,3 @@
-<input placeholder="Digite os nome dos alunos " class="form-control">
+<input   (keyup)="buscaAlunos(curso.value)" placeholder="Digite os nome dos alunos " class="form-control" #curso>
 <app-aluno [curso]="cursoAtual"> </app-aluno>
+

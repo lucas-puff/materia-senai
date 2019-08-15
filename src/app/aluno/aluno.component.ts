@@ -10,6 +10,7 @@ export class AlunoComponent implements OnInit {
   AlunoDesenv: string[] = [];
   alunosRedes: string[] = [];
   @Input() curso: string = '';
+
   constructor() { }
 
   ngOnInit() {

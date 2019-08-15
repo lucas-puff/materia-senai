@@ -12,6 +12,21 @@ export class CursoComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
+
+ buscaAlunos(curso:string){
+
+  if(curso === 'desenvolvimento'){
+    return this.cursoAtual = curso;
+  }
+
+  if(curso === 'redes'){
+    return this.cursoAtual = curso;
+
+  }
+  return this.cursoAtual = "";
+ }
+  
 
 }
