@@ -1,0 +1,3 @@
+.ng-invalid.ng-tounger:not(form) {
+    border: 1x solid red;
+}
